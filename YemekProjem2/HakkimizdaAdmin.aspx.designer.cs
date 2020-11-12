@@ -11,7 +11,7 @@ namespace YemekProjem2
 {
 
 
-    public partial class Kategoriler
+    public partial class HakkimizdaAdmin
     {
 
         /// <summary>
@@ -51,22 +51,13 @@ namespace YemekProjem2
         protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// DataList1 control.
+        /// TxtHakkimizda control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
-
-        /// <summary>
-        /// Panel3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel3;
+        protected global::System.Web.UI.WebControls.TextBox TxtHakkimizda;
 
         /// <summary>
         /// Button3 control.
@@ -76,50 +67,5 @@ namespace YemekProjem2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
-
-        /// <summary>
-        /// Button4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
-
-        /// <summary>
-        /// Panel4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel4;
-
-        /// <summary>
-        /// TextBox1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-
-        /// <summary>
-        /// FileUpload1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
-
-        /// <summary>
-        /// BtnEkle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEkle;
     }
 }

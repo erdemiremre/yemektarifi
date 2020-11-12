@@ -12,7 +12,7 @@ namespace YemekProjem2
         SqlSinif bgl = new SqlSinif();
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Select * From Tbl_GununYemegi", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Select * From Tbl_Yemekler where durum=1", bgl.baglanti());
             SqlDataReader oku = komut.ExecuteReader();
             DataList3.DataSource = oku;
             DataList3.DataBind();

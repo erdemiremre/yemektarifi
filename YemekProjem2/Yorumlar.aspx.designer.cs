@@ -11,7 +11,7 @@ namespace YemekProjem2
 {
 
 
-    public partial class Kategoriler
+    public partial class Yorumlar
     {
 
         /// <summary>
@@ -96,30 +96,12 @@ namespace YemekProjem2
         protected global::System.Web.UI.WebControls.Panel Panel4;
 
         /// <summary>
-        /// TextBox1 control.
+        /// DataList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-
-        /// <summary>
-        /// FileUpload1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
-
-        /// <summary>
-        /// BtnEkle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEkle;
+        protected global::System.Web.UI.WebControls.DataList DataList2;
     }
 }

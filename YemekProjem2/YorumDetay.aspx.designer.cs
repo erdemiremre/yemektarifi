@@ -11,52 +11,52 @@ namespace YemekProjem2
 {
 
 
-    public partial class Kullanici
+    public partial class YorumDetay
     {
 
         /// <summary>
-        /// head control.
+        /// TxtAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.TextBox TxtAd;
 
         /// <summary>
-        /// form1 control.
+        /// TxtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.TextBox TxtMail;
 
         /// <summary>
-        /// Image1 control.
+        /// Txticerik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.TextBox Txticerik;
 
         /// <summary>
-        /// DataList1 control.
+        /// TxtYemek control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
+        protected global::System.Web.UI.WebControls.TextBox TxtYemek;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// BtnOnayla control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Button BtnOnayla;
     }
 }

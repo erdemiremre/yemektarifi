@@ -20,7 +20,9 @@
             <td>
                 <asp:DataList ID="DataList2" runat="server" Width="440px">
                     <ItemTemplate>
+                        <em>
                         <asp:Label ID="Label3" runat="server" Text='<%# Eval("Metin") %>'></asp:Label>
+                        </em>
                     </ItemTemplate>
                 </asp:DataList>
                 
